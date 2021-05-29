@@ -33,11 +33,11 @@ class Route {
         }
     }
     //Tab 切换
-    static switchTab(url){
-        wx.switchTab({
-            url:url
-        })
-    }
+    // static switchTab(url){
+    //     wx.switchTab({
+    //         url:url
+    //     })
+    // }
     //是否是第一页
     static isFirstPage(){
         let pages = getCurrentPages();

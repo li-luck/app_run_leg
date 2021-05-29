@@ -1,26 +1,8 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/majorIndex/majorIndex",
-    "pages/majorMine/majorMine"
+    "pages/home/home"
 
   ],
-  "tabBar": {
-    "list": [
-      {
-        "text": "首页",
-        "iconPath": "/assets/tabbar/first-tab.png",
-        "selectedIconPath": "/assets/tabbar/first-tab-act.png",
-        "pagePath": "pages/majorIndex/majorIndex"
-      },
-      {
-        "text": "我的",
-        "iconPath": "/assets/tabbar/fifth-tab.png",
-        "selectedIconPath": "/assets/tabbar/fifth-tab-act.png",
-        "pagePath": "pages/majorMine/majorMine"
-      }
-    ]
-  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

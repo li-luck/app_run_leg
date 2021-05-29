@@ -1,6 +1,5 @@
 /**app.wxss**/
 @import "/miniprogram_npm/@vant/weapp/common/index.wxss";
-@import "/pages/majorIndex/majorIndex.skeleton.wxss";
 .container {
   height: 100%;
   display: flex;
@@ -14,78 +13,6 @@
 view,
 text {
   font-family: PingFangSC-Medium, PingFang SC;
-}
-
-.row-flex {
-  display: flex;
-  flex-direction: row;
-}
-
-.column-flex {
-  display: flex;
-  flex-direction: column;
-}
-.t20{
-  font-size: 20rpx;
-}
-.t22 {
-  font-size: 22rpx;
-}
-.t24 {
-  font-size: 24rpx;
-}
-.t26 {
-  font-size: 26rpx;
-}
-.t28 {
-  font-size: 28rpx;
-}
-.t30 {
-  font-size: 30rpx;
-}
-.t32 {
-  font-size: 32rpx;
-}
-.t36{
-  font-size: 36rpx;
-}
-.t40 {
-  font-size: 40rpx;
-}
-
-.t-bold {
-  font-weight: bold;
-}
-
-.flex1 {
-  flex: 1;
-}
-
-.t400 {
-  font-weight: 400;
-}
-
-.t500 {
-  font-weight: 500;
-}
-.t600 {
-  font-weight: 600;
-}
-.t700{
-  font-weight: 700;
-}
-.tc {
-  text-align: center;
-}
-.tr{
-  text-align: right;
-}
-.space-between {
-  justify-content: space-between;
-}
-
-.align-center {
-  align-items: center;
 }
 
 .tRegular {
@@ -116,9 +43,6 @@ text {
   font-family: PingFangSC-Medium, PingFang SC;
 }
 
-.mt160 {
-  margin-top: 160rpx;
-}
 
 .lineClamp {
   display: -webkit-box;
@@ -147,36 +71,6 @@ text {
 }
 
 
-.relative {
-  position: relative;
-}
-.absolute{
-  position: absolute;
-}
-.percent100-w{
-  width: 100%;
-}
-.inline-block{
-  display: inline-block;
-}
-.m20{
-  margin: 20rpx;}
-.van-grid-item__content{
-  padding:2rpx 0 !important;
-
-}
-.m-color{
-  color: #263341;
-}
-.notice-sub-content{
-  color: rgba(38, 51, 65, 0.7);
-}
-.mb48{
-  margin-bottom: 48rpx;
-}
-.mt16{
-  margin-top: 16rpx;
-}
 .align-item-center{
   align-items: center;
 }

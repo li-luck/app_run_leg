@@ -42,7 +42,7 @@ Page({
       success: function (res) {
         if (res.code) {
           console.log(that);
-          Route.switchTab("/pages/majorIndex/majorIndex");
+          // Route.switchTab("/pages/majorIndex/majorIndex");
           // Fetch.request("getOpenIdByCode","GET",{"code": res.code}).then(res=>{
           //   UserUtils.saveOpenId(res.openid);
           //   that.init();
@@ -55,6 +55,15 @@ Page({
         console.log("用户授权失败", that.page);
        // allToast.notify("用户授权失败", that.page);
       }
+    });
+  },
+
+  onChange(event) {
+    console.log(event);
+    
+    wx.showToast({
+      title: `切换到 ${event.detail.title}`,
+      icon: 'none',
     });
   },
 

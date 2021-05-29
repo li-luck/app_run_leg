@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "userInfo": "/components/userInfo/userInfo"
-  },
-  "navigationStyle": "custom"
-}
