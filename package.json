@@ -1,0 +1,19 @@
+{
+  "name": "new_wxapplet",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.miot.com.cn:8005/front-chicken/wx-dev/new_wxapplet.git"
+  },
+  "keywords": [],
+  "description": ""
+}

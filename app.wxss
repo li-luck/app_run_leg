@@ -1,0 +1,209 @@
+/**app.wxss**/
+@import "/miniprogram_npm/@vant/weapp/common/index.wxss";
+@import "/pages/majorIndex/majorIndex.skeleton.wxss";
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+view,
+text {
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+}
+.t20{
+  font-size: 20rpx;
+}
+.t22 {
+  font-size: 22rpx;
+}
+.t24 {
+  font-size: 24rpx;
+}
+.t26 {
+  font-size: 26rpx;
+}
+.t28 {
+  font-size: 28rpx;
+}
+.t30 {
+  font-size: 30rpx;
+}
+.t32 {
+  font-size: 32rpx;
+}
+.t36{
+  font-size: 36rpx;
+}
+.t40 {
+  font-size: 40rpx;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.t400 {
+  font-weight: 400;
+}
+
+.t500 {
+  font-weight: 500;
+}
+.t600 {
+  font-weight: 600;
+}
+.t700{
+  font-weight: 700;
+}
+.tc {
+  text-align: center;
+}
+.tr{
+  text-align: right;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.tRegular {
+  font-family: PingFangSC-Regular, PingFang SC;}
+.space-around{
+  justify-content: space-around;
+}
+.flex-end{
+  justify-content: flex-end;
+}
+.align-end{
+  align-items: flex-end;
+}
+.align-center{
+  align-items: center;
+}
+.align-start{
+  align-items: flex-start;
+}
+.align-base-line{
+  align-items: baseline;
+}
+.tRegular{
+  font-family:PingFangSC-Regular,PingFang SC;
+}
+
+.tMedium {
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+
+.mt160 {
+  margin-top: 160rpx;
+}
+
+.lineClamp {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.lineClamp2 {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.lineClamp3 {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+
+.relative {
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.percent100-w{
+  width: 100%;
+}
+.inline-block{
+  display: inline-block;
+}
+.m20{
+  margin: 20rpx;}
+.van-grid-item__content{
+  padding:2rpx 0 !important;
+
+}
+.m-color{
+  color: #263341;
+}
+.notice-sub-content{
+  color: rgba(38, 51, 65, 0.7);
+}
+.mb48{
+  margin-bottom: 48rpx;
+}
+.mt16{
+  margin-top: 16rpx;
+}
+.align-item-center{
+  align-items: center;
+}
+.through-text{
+  text-decoration: line-through;
+}
+.no-data {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.no-data-icon {
+  width: 240rpx;
+  height: 240rpx;
+}
+.no-data-icon image {
+  width: 100%;
+  height: 100%;
+}
+.no-data-text {
+  font-size: 26rpx;
+  color: #8C8C8C;
+  line-height: 96rpx;
+}
+/*隐藏scroll-view滚动条*/
+::-webkit-scrollbar{
+width: 0;
+height: 0;
+color: transparent;
+}
