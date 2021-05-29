@@ -1,0 +1,106 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/2/26 上午11:18:23
+使用方法：
+在 /Users/Gray/Documents/WxappletWs/new_wxapplet/pages/majorIndex/majorIndex.wxml 引入模板
+
+```
+<import src="majorIndex.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 /Users/Gray/Documents/WxappletWs/new_wxapplet/pages/majorIndex/majorIndex.wxss 中引入样式
+```
+@import "./majorIndex.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="cus-nav sk-transparent sk-text-14-2857-814 sk-text" style="opacity: 0; background-position-x: 50%;">你猜猜看</view>
+    <view>
+      <view class="relative">
+        <view is="components/slider/slider" id="slider">
+          <view class="slider--page-section slider--page-section-spacing slider--swiper" style="height:342px">
+            
+            <view class="slider--dots">
+              <view class="slider--dot slider--main-color"></view>
+              <view class="slider--dot slider--active slider--main-color"></view>
+              <view class="slider--dot slider--main-color"></view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="date-search">
+        <view class="dateCard">
+          <view class="dateCardItem dateItemLeft">
+            <view class="dateCardText t400 t22 sk-transparent sk-text-14-2857-284 sk-text">入住日期</view>
+            <view class="dateCardDate t400">
+              <text class="date-num t32 t600 sk-transparent sk-text-14-2857-565 sk-text">02月26日</text>
+              <text class="ml12 date-week t24 t400 sk-transparent sk-text-14-2857-17 sk-text">周五</text>
+            </view>
+          </view>
+          <view class="dateCardItem dateItemCenter sk-transparent sk-text-14-2857-407 sk-text" style="background-position-x: 50%;">
+            1晚
+          </view>
+          <view class="dateCardItem dateItemRight">
+            <view class="dateCardText tr t400 t22 sk-transparent sk-text-14-2857-606 sk-text" style="background-position-x: 100%;">离店日期</view>
+            <view class="dateCardDate t400">
+              <text class="date-num t32 t600 sk-transparent sk-text-14-2857-737 sk-text">02月27日</text>
+              <text class="ml12 date-week t24 t400 sk-transparent sk-text-14-2857-168 sk-text">周六</text>
+            </view>
+          </view>
+        </view>
+        <view class="search-btn tc sk-transparent sk-image">立即搜索</view>
+      </view>
+      <view class="shadow sk-image"></view>
+      <view class="absolute percent100-w mt280">
+        <view is="components/sortHandler/sortHandler">
+          <view class="sortHandler--page sortHandler--mb20 sortHandler--flex-order">
+            <view style="order:1">
+              <view is="components/IndexInn/IndexInn">
+                <view class="IndexInn--inn-block">
+                  <view class="IndexInn--inn-title">
+                    <view class="IndexInn--recommend-inn sk-transparent sk-text-14-2857-384 sk-text">推荐好店</view>
+                    <view class="IndexInn--inn-flex">
+                      <view class="IndexInn--recommend-inn-sub sk-transparent sk-text-14-2857-106 sk-text">当季热门好店推荐</view>
+                      <view class="IndexInn--recommend-inn-more sk-transparent sk-text-14-2857-937 sk-text">查看更多&gt;</view>
+                    </view>
+                  </view>
+                  <scroll-view class="IndexInn--scroll-view_H" scroll-x="true" style="width: 100%">
+                    <view class="IndexInn--inline-block IndexInn--mr20" data-innid="63926">
+                      <view class="IndexInn--relative IndexInn--inn-item">
+                        <image class="IndexInn--inn-img sk-image"></image>
+                      </view>
+                    </view>
+                    <view class="IndexInn--inline-block IndexInn--mr20" data-innid="63741">
+                      <view class="IndexInn--relative IndexInn--inn-item">
+                        <image class="IndexInn--inn-img sk-image"></image>
+                      </view>
+                    </view>
+                  </scroll-view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view is="components/coupon/coupon">
+      <view is="miniprogram_npm/@vant/weapp/toast/index">
+        <view is="miniprogram_npm/@vant/weapp/transition/index"></view>
+      </view>
+    </view>
+    <view is="custom-tab-bar/index">
+      <view is="miniprogram_npm/@vant/weapp/toast/index">
+        <view is="miniprogram_npm/@vant/weapp/transition/index"></view>
+      </view>
+    </view>
+    <view is="miniprogram_npm/@vant/weapp/toast/index" id="van-toast">
+      <view is="miniprogram_npm/@vant/weapp/overlay/index">
+        <view is="miniprogram_npm/@vant/weapp/transition/index"></view>
+      </view>
+      <view is="miniprogram_npm/@vant/weapp/transition/index"></view>
+    </view>
+  </view>
+</template>

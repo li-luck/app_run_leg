@@ -1,0 +1,57 @@
+.lineClamp{
+  display: -webkit-box;      
+  word-break: break-all;
+  text-overflow: ellipsis;  
+  overflow: hidden;            
+  -webkit-box-orient: vertical;    
+  -webkit-line-clamp: 1;
+}
+
+.lineClamp2{
+  display: -webkit-box;      
+  word-break: break-all;
+  text-overflow: ellipsis;  
+  overflow: hidden;            
+  -webkit-box-orient: vertical;    
+  -webkit-line-clamp: 2;
+}
+.tRegular{
+  font-family:PingFangSC-Regular,PingFang SC;
+}
+.tMedium{
+  font-family: PingFangSC-Medium, PingFang SC;
+}
+.row-flex{
+  display: flex;
+  flex-direction: row;
+}
+.t24{
+  font-size: 24rpx;
+}
+.t26{
+  font-size: 26rpx;
+}
+.t30{
+  font-size: 30rpx;
+}
+.t40{
+  font-size: 40rpx;
+}
+.t-bold{
+  font-weight: bold;
+}
+.flex1{
+  flex: 1;
+}
+.t400{
+  font-weight: 400;
+}
+.t500{
+  font-weight: 400;
+}
+.tc{
+  text-align: center;
+}
+.space-between{
+  justify-content: space-between;
+}
