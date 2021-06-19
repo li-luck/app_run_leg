@@ -1,0 +1,19 @@
+<view class="panel">
+  <view class="slot">
+    <slot></slot>
+  </view>
+  <view class="panel-form">
+    <view class="point-box">
+      <view class="point-green"></view>
+    </view>
+    <view class="addr-from">到哪里拿货</view>
+    <view class="but"><navigator class="nav">常用</navigator></view>
+  </view>
+  <view class="panel-to">
+    <view class="point-box">
+      <view class="point-red"></view>
+    </view>
+    <view class="addr-from border-none">送到哪里</view>
+    <view class="but"><navigator class="nav">常用</navigator></view>
+  </view>
+</view>

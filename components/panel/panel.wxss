@@ -1,0 +1,71 @@
+.panel {
+  width: 100%;
+  height: 100%;
+  background: white;
+  box-shadow: 0 0 20rpx 0 #e1e1e1;
+}
+.slot{
+  padding: 25rpx 0 0 20rpx;
+}
+.panel-form,.panel-to {
+  width: 100%;
+  height: 100rpx;
+  float: left;
+  margin-top: 10rpx;
+}
+
+.point-box{
+  float: left;
+  height:100rpx ;
+  width: 50rpx;
+}
+
+.addr-from{
+  float: left;
+  width: calc(100% - 200rpx);
+  height:100rpx ;
+  line-height: 100rpx;
+  border-bottom: 1px solid rgb(214, 211, 211);
+  padding-left: 20rpx;
+  font-size: 36rpx;
+  color: gray;
+}
+.border-none{
+  border: none;
+}
+.but{
+  float: right;
+  width:100rpx ;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.nav{
+  width: 80rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 50rpx;
+  background-color: #46495f;
+  color: #ffffff;
+  border-radius: 4rpx;
+  margin-top: 25rpx;
+}
+
+.point-green {
+  background-color: #33CC66;
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 30rpx;
+  border: 5rpx solid rgb(195, 252, 213);
+  margin:45rpx 10rpx 0 20rpx ;
+}
+
+.point-red {
+  background-color: #ff6633;
+  width: 15rpx;
+  height: 15rpx;
+  border-radius: 30rpx;
+  border: 5rpx solid #fcc4b2;
+  margin:45rpx 10rpx 0 20rpx ;
+}

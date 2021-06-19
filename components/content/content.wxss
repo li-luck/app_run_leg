@@ -1,0 +1,26 @@
+/* components/content/content.wxss */
+.content {
+  width: 100%;
+  height: 100%;
+  background: white;
+  box-shadow: 0 0 20rpx 0 #e1e1e1;
+}
+.img-box{
+  height: 30rpx;
+  width: 100%;
+  line-height: 30rpx;
+}
+.img{
+  width: 25rpx;
+  height: 25rpx;
+  float: left;
+  margin-right: 10rpx;
+}
+.mes{
+  float: left;
+  font-size: 25rpx;
+}
+textarea{
+  width: 100%;
+  height:240rpx;
+}

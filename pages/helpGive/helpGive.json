@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "panel":"../../components/panel/panel",
+    "weight-good":"../../components/weight/weight",
+    "content-good":"../../components/content/content"
+  }
+}

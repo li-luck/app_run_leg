@@ -1,0 +1,28 @@
+/* pages/helpGive/helpGive.wxss */
+page{
+  background-color: rgb(250, 248, 248);
+}
+
+.give-panel{
+  width: 92%;
+  height: 300rpx;
+  margin: 30rpx auto;
+}
+
+.weight-good{
+  width: 92%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: 30rpx auto;
+}
+
+.content-goods{
+  width: 92%;
+  height: 300rpx;
+  margin: 30rpx auto;
+  padding: 20rpx;
+}
+.van-but>button{
+  width: 92%;
+  display: flex;
+}

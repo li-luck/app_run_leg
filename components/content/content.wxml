@@ -1,0 +1,8 @@
+<!--components/content/content.wxml-->
+<view class="content">
+  <view class="img-box">
+    <image class="img" src="/assets/img/edit.png"></image>
+    <view class="mes">描述物品信息</view>
+  </view>
+  <textarea name="" id="" cols="30" rows="10"></textarea>
+</view>

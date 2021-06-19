@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/home/home"
-
+    "pages/home/home",
+    "pages/helpGive/helpGive",
+    "pages/helpTake/helpTake",
+    "pages/helpBuy/helpBuy"
   ],
   "window": {
     "backgroundTextStyle": "light",

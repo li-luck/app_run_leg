@@ -1,5 +1,5 @@
 <van-tabs active="{{ active }}" bind:change="onChange">
-  <van-tab title="帮我送">内容 1</van-tab>
-  <van-tab title="帮我取">内容 2</van-tab>
-  <van-tab title="帮我买">内容 3</van-tab>
+  <van-tab title="帮我送"><help-give></help-give></van-tab>
+  <van-tab title="帮我取"><help-take></help-take></van-tab>
+  <van-tab title="帮我买"><help-buy></help-buy></van-tab>
 </van-tabs>

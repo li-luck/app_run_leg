@@ -1,0 +1,15 @@
+<!--pages/helpGive/helpGive.wxml-->
+<view class="give-panel">
+  <panel data="{{panelData}}">
+    <view>帮我送呀</view>
+  </panel>
+</view>
+<view class="weight-good">
+  <weight-good></weight-good>
+</view>
+
+<view class="content-goods">
+  <content-good></content-good>
+</view>
+
+<van-button class="van-but" type="primary" color="#46495f" size="large">下一步</van-button>
